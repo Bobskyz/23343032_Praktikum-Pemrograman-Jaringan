@@ -1,5 +1,5 @@
 # Praktikum Pemrograman Jaringan  
-**Mata Kuliah:** INF1.62.5010 – Pemrograman Jaringan  
+**Mata Kuliah:** INF1.62.5010 - Pemrograman Jaringan - Sesi: 202513430093
 **Dosen Pengampu:** Randi Proska Sandra, M.Sc  
 
 ---
