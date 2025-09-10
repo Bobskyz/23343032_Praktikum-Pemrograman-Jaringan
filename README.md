@@ -7,7 +7,7 @@
 ## 👤 Identitas  
 - **Nama:** Dafin Surya
 - **NIM:** 23343032
-- **Program Studi:** Informatika – Departemen Teknik Elektronika, Universitas Negeri Padang  
-- **Kontak:** dafinsurya111@gmail.com
+- **Program Studi:** Informatika, Departemen Teknik Elektronika, Universitas Negeri Padang  
+- **E-Mail:** dafinsurya111@gmail.com
 
 ---
