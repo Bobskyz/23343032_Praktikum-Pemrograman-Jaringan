@@ -1,1 +1,13 @@
-# 23343032_Praktikum-Pemrograman-Jaringan
+# Praktikum Pemrograman Jaringan  
+**Mata Kuliah:** INF1.62.5010 – Pemrograman Jaringan  
+**Dosen Pengampu:** Randi Proska Sandra, M.Sc  
+
+---
+
+## 👤 Identitas  
+- **Nama:** Dafin Surya
+- **NIM:** 23343032
+- **Program Studi:** Informatika – Departemen Teknik Elektronika, Universitas Negeri Padang  
+- **Kontak:** dafinsurya111@gmail.com
+
+---
