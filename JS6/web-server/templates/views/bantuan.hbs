@@ -1,0 +1,26 @@
+{{>head}}
+
+<body>
+    <div class="main-content">
+        {{>header}}
+        <section class="faq">
+            <h2>Bantuan & FAQ</h2>
+            <p>Berikut beberapa pertanyaan yang sering diajukan tentang aplikasi ini.</p>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <h4>Bagaimana cara mencari cuaca untuk suatu lokasi?</h4>
+                    <p>Masukkan nama kota atau alamat pada halaman utama, lalu tekan 'Cari Lokasi'. Aplikasi akan menampilkan lokasi yang ditemukan dan ringkasan cuaca saat ini.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Kenapa hasil tidak muncul atau muncul pesan error?</h4>
+                    <p>Periksa koneksi internet Anda. Jika lokasi tidak ditemukan, coba masukkan nama yang lebih spesifik. Jika ada masalah layanan (API key limit), aplikasi akan menampilkan pesan kesalahan.</p>
+                </div>
+                <div class="faq-item">
+                    <h4>Apakah data cuaca akurat?</h4>
+                    <p>Data diambil dari layanan pihak ketiga (Weatherstack). Akurasi bergantung pada data penyedia layanan tersebut.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    {{>footer}}
+</body>

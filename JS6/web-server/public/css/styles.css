@@ -1,0 +1,129 @@
+body {
+    color: #333333;
+    font-family: arial;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+footer {
+    color: #888888;
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px 0;
+}
+
+header {
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+.main-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 12px;
+}
+
+.main-nav a {
+    color: #666666bc;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+
+header a {
+    color: #888888;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+.portrait {
+    width: 250px;
+}
+
+/* About & FAQ styles */
+.about {
+    display: grid;
+    grid-template-columns: 1fr 280px;
+    gap: 25px;
+    align-items: start;
+}
+
+.about-card, .developer-card {
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 6px 18px rgba(20,20,20,0.06);
+    padding: 10px;
+}
+
+.developer-card ul {
+    margin-top: 5;
+}
+
+.about-card {
+    display: flex;
+    gap: 16px;
+}
+
+.about-card .portrait {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.about-body h2 {
+    margin-top: 0;
+}
+
+.developer-card h3 { 
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.faq h2 {
+    margin-top: 0;
+}
+
+.faq-list {
+    display: grid;
+    gap: 12px;
+    margin-top: 12px;
+}
+
+.faq-item {
+    background: #ffffff;
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(10,10,10,0.04);
+}
+
+@media (max-width: 800px) {
+    .about { grid-template-columns: 1fr; }
+}
+
+input {
+    border: 2px solid #cccccc;
+    padding: 8px;
+}
+
+button {
+    cursor: pointer;
+    border: 0px solid #cccccc;
+    background: #888888;
+    color: white;
+    padding: 9px;
+}
