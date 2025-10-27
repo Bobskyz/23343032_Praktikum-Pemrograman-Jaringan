@@ -1,0 +1,35 @@
+{{>head}}
+
+<body>
+    <div class="main-content">
+        {{>header}}
+        <section class="faq">
+            <h2>Bantuan & FAQ</h2>
+            <p>Berikut beberapa pertanyaan yang sering diajukan tentang aplikasi ini.</p>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <h4>a. Halaman ini digunakan untuk apa?</h4>
+                    <p>Halaman ini berisi informasi bantuan dan tanya jawab (FAQ) untuk membantu pengguna memahami fungsi aplikasi, cara penggunaan fitur-fitur utama, dan mengatasi masalah umum. Gunakan halaman ini saat Anda memerlukan panduan singkat tentang cara mencari cuaca atau saat menemukan pesan kesalahan.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>b. Apa itu API?</h4>
+                    <p>API (Application Programming Interface) adalah sekumpulan aturan dan protokol yang memungkinkan dua aplikasi atau layanan berkomunikasi satu sama lain. Dalam konteks web, API memungkinkan aplikasi ini meminta data (mis. lokasi atau cuaca) dari layanan eksternal tanpa perlu mengetahui detail internal penyedia layanan tersebut.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>c. API apa yang digunakan dalam aplikasi ini?</h4>
+                    <p>Aplikasi ini menggunakan beberapa layanan API pihak ketiga: <strong>Mapbox</strong> (atau layanan geocoding serupa) untuk mengubah nama lokasi menjadi koordinat (latitude/longitude), dan <strong>Weatherstack</strong> untuk mengambil data cuaca berdasarkan koordinat tersebut. Permintaan ke API tersebut biasanya memerlukan API key (kunci akses) yang dikonfigurasi di server.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>d. Salah satu pola arsitektur API adalah (pilih salah satu SOAP, RESTful, GraphQL dan gRPC) — Jelaskan</h4>
+                    <p>Arsitektur yang digunakan dalam aplikasi ini adalah <strong>RESTful</strong>. REST (Representational State Transfer) adalah gaya arsitektur yang menggunakan HTTP untuk operasi pada sumber daya (resources). Pada API RESTful, endpoint merepresentasikan resource (mis. /weather?lat=...&lon=...) dan operasi dilakukan dengan metode HTTP standar seperti GET, POST, PUT, DELETE. REST mudah diintegrasikan, ringan, dan cocok untuk mengambil data seperti cuaca melalui permintaan GET yang sederhana.</p>
+                    <img src="/img/restful.png" alt="Arsitektur API RESTful">
+                    <p><strong>Gambar:</strong> RESTful Architecture</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    {{>footer}}
+</body>

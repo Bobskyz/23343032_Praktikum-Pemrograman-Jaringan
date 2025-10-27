@@ -1,0 +1,30 @@
+{{>head}}
+
+<body>
+    <div class="main-content">
+        {{>header}}
+        <section class="news">
+            <h2>Berita Terkini</h2>
+
+            {{#if error}}
+                <p class="error">Terjadi kesalahan: {{error}}</p>
+            {{else}}
+                {{#if articles}}
+                    <ul class="news-list">
+                        {{#each articles}}
+                            <li class="news-item">
+                                {{#if image}}<img class="thumb" src="{{image}}" alt="thumbnail">{{/if}}
+                                <h3><a href="{{url}}" target="_blank">{{title}}</a></h3>
+                                <p class="meta">{{source}} • {{published_at}}</p>
+                                {{#if description}}<p class="desc">{{description}}</p>{{/if}}
+                            </li>
+                        {{/each}}
+                    </ul>
+                {{else}}
+                    <p>Tidak ada berita untuk ditampilkan.</p>
+                {{/if}}
+            {{/if}}
+        </section>
+    </div>
+    {{>footer}}
+</body>
