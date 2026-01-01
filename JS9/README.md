@@ -341,7 +341,3 @@ socket.on("pesan", (message) => { ... })                 // Chat.js baris 42
 **Socket.io** memungkinkan komunikasi real-time bidirectional dengan WebSocket yang membuat persistent connection antara client dan server, jadi data bisa dikirim kapan saja tanpa polling.
 
 ---
-
-## Kesimpulan
-
-Aplikasi Ruangobrol adalah contoh sempurna dari implementasi real-time chat application menggunakan Node.js, Socket.io, dan HTML/CSS/JavaScript. Arsitektur aplikasi mengikuti pattern event-driven yang memungkinkan komunikasi bidirectional instan antara server dan multiple clients dalam room-based environment.
