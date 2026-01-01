@@ -10,9 +10,7 @@
 
 **Nama:** Dafin Surya  
 **NIM:** 23343032  
-**Program Studi:** Informatika  
-**Departemen:** Teknik Elektronika  
-**Universitas:** Negeri Padang
+**Program Studi Informatika | Departemen Teknik Elektronika | Universitas Negeri Padang**
 
 </div>
 
