@@ -212,7 +212,7 @@
 
 <div align="center">
 
-**Made with ❤️ by Dafin Surya**
+**Made by Dafin Surya**
 
 ![Last Update](https://img.shields.io/badge/Last%20Update-2026-blue)
 ![Status](https://img.shields.io/badge/Status-Active-green)
