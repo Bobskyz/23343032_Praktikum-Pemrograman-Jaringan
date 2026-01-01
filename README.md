@@ -202,14 +202,6 @@
 
 ---
 
-## 📞 Informasi Kontak
-
-**Dosen:** Randi Proska Sandra, S.Pd., M.Sc  
-**Universitas:** Universitas Negeri Padang  
-**Program Studi:** Informatika
-
----
-
 <div align="center">
 
 **Made by Dafin Surya**
